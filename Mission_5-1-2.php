@@ -61,9 +61,9 @@
 <input type="text", name="new_name", value=
     "<?php 
     //MySQLを設定
-    $dsn='mysql:host=localhost;dbname=tb220139db';
-    $user='tb-220139';
-    $pass='Tkg7VXBSBZ';
+    $dsn='データベース名';
+    $user='ユーザー名';
+    $pass='パスワード';
     $pdo=new PDO($dsn, $user, $pass,
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
@@ -80,9 +80,9 @@
 <input type="text", name="new_comment", value=
     "<?php 
     //MySQLを設定
-    $dsn='mysql:host=localhost;dbname=tb220139db';
-    $user='tb-220139';
-    $pass='Tkg7VXBSBZ';
+    $dsn='データベース名';
+    $user='ユーザー名';
+    $pass='パスワード';
     $pdo=new PDO($dsn, $user, $pass,
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
